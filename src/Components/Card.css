@@ -1,0 +1,33 @@
+.App{
+    min-height: 100vh;
+    display: flex;
+    background: #0059ff;
+}
+
+.title{
+    margin: auto;
+    width: 100%;
+    max-width: 500px;
+    min-height: 220px;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px #00000180;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.btn{
+    border: none;
+    margin-right: 12px;
+    background: #0059ff;
+    width: 88px;
+    padding: 10px 0;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #ffffff;
+    transition: all 600ms;
+}
